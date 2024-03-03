@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 import Reducer from './Reducer';
+import TodosContext from './TodosContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   <Reducer/> 
+   <TodosContext/> 
 );
 
 // If you want to start measuring performance in your app, pass a function
